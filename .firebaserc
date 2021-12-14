@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "chonks-stonks": {
+      "hosting": {
+        "cat-service": [
+          "chonks-stonks"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "chonks-stonks"
+  }
+}

@@ -1,0 +1,51 @@
+.main-block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(19, 65, 59, 0.836);
+  border-style: solid;
+  padding: 2vh 0;
+}
+
+.label {
+  color: white;
+  font-size: 16pt;
+}
+
+h1 {
+  font-size: 36pt;
+  color: white;
+  font-weight: bolder;
+}
+
+.table {
+  width: 100%;
+}
+
+.table {
+  background-color: white;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+.table > tr > th {
+  padding: 2vh 2vw;
+}
+
+.table > tr > td {
+  padding: 2vh 0;
+  padding-left: 2vw;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.row-block {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-width: 2px;
+  border-style: solid;
+  border-color: black;
+}

@@ -1,0 +1,33 @@
+<div class="main-block">
+  <label class="label">Company:</label>
+
+<div>
+  <input (keyup)="onChange($event)">
+  <button (click)="getApi()">SUBMIT</button>
+</div>
+  
+
+  <h1>{{companyName}} - {{companyStock}}</h1>
+<table class="table">
+  <tr>
+    <th>Close Price</th>
+    <th>Highest Price</th>
+    <th>Lowest Price</th>
+    <th>Number of Transactions</th>
+    <th>Open Price</th>
+    <th>Time Stamp</th>
+    <th>Trading Volume</th>
+    <th>Average Price</th>
+  </tr>
+  <tr *ngFor="let data of datas">
+    <td>{{data.c}}</td>
+    <td>{{data.h}}</td>
+    <td>{{data.l}}</td>
+    <td>{{data.n}}</td>
+    <td>{{data.o}}</td>
+    <td>{{data.t}}</td>
+    <td>{{data.v}}</td>
+    <td>{{data.vw}}</td>
+  </tr>
+</table>
+</div>
